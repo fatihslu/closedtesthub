@@ -1,0 +1,60 @@
+# Gizlilik Politikası — Closed Test Hub
+
+**Son güncelleme: 26 Eylül 2026**
+
+Closed Test Hub, Android uygulamalarının kapalı test süreçlerini düzenlemeye yardımcı olur. Bu politika, uygulamayı ve ilişkili çevrimiçi hizmetleri kullanırken hangi bilgilerin işlendiğini, neden işlendiğini ve kullanıcıların seçeneklerini açıklar.
+
+## İşlenen bilgiler
+
+- **Google hesabı ve profil bilgileri:** Google ile giriş yaptığınızda kimlik doğrulaması için Google kimlik belirteci alınır. Oturum açma ve hesap yönetimi Supabase Auth üzerinden yürütülür. Hesap kimliği, e-posta adresi ve mevcutsa profil adı hesabınızı ve test faaliyetlerinizi yönetmek için işlenir. Google parolanız uygulama tarafından alınmaz.
+- **Uygulama ve test bilgileri:** Oluşturduğunuz uygulama/kampanya için uygulama adı, Android paket adı, Google Play test bağlantısı, erişim talimatları ve açıklama; size atanan test görevlerinin durumu ve ilgili zaman bilgileri saklanır.
+- **Test kanıtı:** Bir görevi tamamladığınızı göstermek için seçip gönderdiğiniz JPEG veya PNG ekran görüntüsü ve inceleme sonucu işlenir. Görsel seçimi siz başlattığınızda gerçekleşir.
+- **Test kurulumu gözlemleri:** Uygulama, atanmış test görevinin süresi boyunca ilgili uygulamanın cihazda bulunup bulunmadığına dair sınırlı durum bilgisini (mevcut, görünmüyor veya kaldırılmış) kontrol edip hizmete iletebilir. Bu, test görevinin durumunu yönetmek içindir; uygulama kişisel dosyalarınızı taramaz.
+- **Ödeme bilgileri:** Uygulama içi tek seferlik ödeme Google Play tarafından gerçekleştirilir. Ödeme doğrulaması için satın alma belirteci ve ilgili kampanya/hesap bağlantısı hizmet sunucusuna iletilip Google Play Developer API ile doğrulanır. Kart veya banka bilgilerinizi uygulama ya da geliştirici almaz. Satın alma belirteci güvenlik ve yinelenen kullanımın önlenmesi için saklanabilir.
+- **Oturum güvenliği bilgileri:** Oturum erişim ve yenileme belirteçleri cihazda Android Keystore ile şifrelenerek saklanır. Hizmet, istekleri yetkilendirmek ve kötüye kullanımı önlemek için gerekli teknik kayıtları ve istek sınırlandırma bilgilerini işleyebilir.
+
+Uygulama konum, kişi listesi, reklam kimliği veya reklam/analitik SDK'sı kullanmaz.
+
+## Bilgileri nasıl kullanıyoruz?
+
+Bilgiler; Google ile oturum açmak, kullanıcı hesabı ve test kampanyalarını yönetmek, test görevlerini eşleştirmek, gönderilen kanıtları incelemek, satın alımları doğrulamak, hizmeti güvenli ve çalışır tutmak ve destek taleplerini yanıtlamak için kullanılır. Bilgiler bu amaçlarla sınırlı tutulur.
+
+## Kimlerle paylaşılır?
+
+Hizmetin çalışması için gerekli bilgiler şu sağlayıcılara aktarılabilir:
+
+- **Google:** Google ile kimlik doğrulama ve Google Play satın alma işlemlerinin yürütülmesi/doğrulanması için.
+- **Supabase:** Kimlik doğrulama, veritabanı ve kanıt dosyası saklama altyapısı için.
+- **Uygulama sunucusu ve barındırma sağlayıcısı:** Kampanya, görev, kanıt inceleme ve ödeme doğrulama hizmetlerini sunmak için.
+
+Test kanıtları, görevi inceleyen yetkili hizmet operatörleri tarafından görülebilir. Bilgiler reklam amacıyla satılmaz veya paylaşılmaz. Yasal yükümlülükleri yerine getirmek, dolandırıcılığı önlemek veya hizmetin güvenliğini sağlamak gerektiğinde ilgili bilgiler yetkili taraflara açıklanabilir.
+
+## Saklama ve güvenlik
+
+Bilgileri hizmeti sunmak için gerekli olduğu süre boyunca saklarız. Hesap silme talebi üzerine, yasal, güvenlik veya işlem kayıtlarını tutma zorunlulukları saklı kalmak üzere, hesabı doğrudan tanımlayan bilgiler ve ilişkili içerikler silinir veya kimlikten arındırılır. Ödeme ve güvenlik kayıtları, ilgili işlemlerin doğrulanması ve yasal yükümlülükler için gerekli süreyle tutulabilir.
+
+Aktarım sırasında HTTPS kullanılır; oturum belirteçleri cihazda şifreli tutulur ve sunucu erişimleri yetkilendirilir. Hiçbir elektronik aktarım veya saklama yöntemi mutlak güvenlik garantisi vermez.
+
+## Kullanıcı seçenekleri ve hakları
+
+Google oturumundan uygulama içinden çıkış yapabilirsiniz. Kişisel verilerinize erişmek, düzeltmek veya hesabınızı ve verilerinizi silme talebinde bulunmak için aşağıdaki e-posta adresinden bize ulaşın. Talebinizi doğrulamak için ek bilgi isteyebiliriz. Google hesabınızın uygulama erişimini Google Hesabı ayarlarınızdan ayrıca kaldırabilirsiniz.
+
+## Çocukların gizliliği
+
+Uygulama çocuklara yönelik değildir ve bilerek çocuklardan kişisel bilgi toplamayız. Bu tür bir bilginin sağlandığını öğrenirsek silinmesi için gerekli işlemi yaparız.
+
+## Üçüncü taraf hizmetleri
+
+Google Play, Google kimlik hizmetleri ve Supabase kendi gizlilik politikalarına tabidir. Bu hizmetlerin veri işleme uygulamaları hakkında ilgili sağlayıcıların güncel politikalarını inceleyin.
+
+## Politika değişiklikleri
+
+Bu politika güncellenebilir. Önemli değişiklikler uygulama veya hizmet üzerinden duyurulur; güncel sürüm bu sayfada yayımlanır.
+
+## İletişim
+
+Gizlilik, erişim, düzeltme veya silme talepleri için:
+
+**E-posta:** [GİZLİLİK İLETİŞİM E-POSTASINI BURAYA YAZIN]
+
+**Hizmet:** Closed Test Hub
